@@ -5,7 +5,7 @@ Python Tutorials for Ankita
 
 **Core**
 
-    Python Intro
+    Python Intro --------------------------------> 25-11-2023
     Python Get Started
     Python Syntax
     Python Comments
@@ -15,6 +15,7 @@ Python Tutorials for Ankita
     Python Casting
     Python Strings
     Python String Formatting
+    Python Escape Sequence
     Python Booleans
     Python Operators
     Python User Input
@@ -35,21 +36,6 @@ Python Tutorials for Ankita
     Python Dictionaries
     Python Arrays
 
-**Advanced**
-
-    Python Try...Except
-    Python Iterators
-    Python Generators
-    Python Multi Threading
-    Python Multi Processing
-
-**Opps**
-
-    Python Classes/Objects
-    Python Inheritance
-    Python Polymorphism
-    Python Scope
-
 **Modules**
 
     Python PIP
@@ -58,6 +44,22 @@ Python Tutorials for Ankita
     Python Math
     Python JSON
     Python RegEx
+
+**Advanced**
+
+    Python Try...Except
+    Python Iterators
+    Python Generators
+    Python Multi Threading
+    Python Multi Processing
+    Memory Management & Garbage Collector
+
+**Opps**
+
+    Python Classes/Objects
+    Python Inheritance
+    Python Polymorphism
+    Python Scope
 
 **File Handling**
 
