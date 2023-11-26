@@ -10,7 +10,7 @@ Python Tutorials for Ankita
     Python Syntax
     Python Comments
     Python Variables
-    Python Data Types
+    Python Data Types ---------------------------> 26-11-2023
     Python Numbers
     Python Casting
     Python Strings
