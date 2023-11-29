@@ -17,7 +17,7 @@ Python Tutorials for Ankita
     Python String Formatting
     Python Escape Sequence
     Python Booleans
-    Python Operators
+    Python Operators ----------------------------> 29-11-2023
     Python User Input
 
 **Control Statement**
