@@ -5,31 +5,35 @@ integer or float, then performs a mathematical operation and displays the result
 
 # a = "111"
 # b = "222"
-a=str(input("Enter any Number :"))
-b=str(input("Enter any Number :"))
+a = input("Enter any Number: ")
+b = input("Enter any Number: ")
+
+print(type(a), type(b))
+
 c = float(a)
 d = int(b) 
-print(a,type(a))
-print(b,type(b))
-print(c,type(c)) 
-print(d,type(d))
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
 
 # result = c*d
 # print(result)
 
 print("Menu::\n1 for ADDITION\n2 for SUBTRACTION\n3 for MULTIPLICATION\n4 FOR DIVISION\n5 for REMAINDER OF DIVISION")
-choice=int(input("Enter the choice between 1 to 5 :"))
-if(choice==1):
-    result=c+d
-elif(choice==2):
-    result=c-d
-elif(choice==3):
-    result=c*d
-elif(choice==4):
-    result=c/d        
-elif(choice==5):
-    result=c%d
+choice = int(input("Enter the choice between 1 to 5: "))
+if choice == 1:
+    result = c + d
+elif choice == 2:
+    result = c - d
+elif choice == 3:
+    result = c * d
+elif choice == 4:
+    result = c / d
+elif choice == 5:
+    result = c % d
 else:
-    print("Incorrect choice .")       
+    print("Incorrect choice .")
+    exit(0)
 
-print("Result ::",result)     
+print(f"Result: {result:.3f}")

@@ -3,12 +3,12 @@
 Create a simple email template with placeholders for the recipient's name and a generic message. 
 Use string formatting to personalize the email for different recipients.
 """
-recipient=str(input("Recipient Name :"))
-gmail_recipient=str(input("Recipient Email-id :"))
-subject=str(input("Subject of this Email :"))
-generic_msg=str(input("Enter your generic message :"))
-messenger=str(input("Person name,who deliver the msssage :"))
-gmail_messenger=str(input("Email_id of messenger :"))
+recipient = input("Recipient Name: ")
+gmail_recipient = input("Recipient Email-id: ")
+subject = input("Subject of this Email: ")
+generic_msg = input("Enter your generic message: ")
+messenger = input("Person name,who deliver the message: ")
+gmail_messenger = input("Email id of messenger: ")
 
 print("\nTo {0}".format(gmail_recipient))
 print("Subject : {0}\n".format(subject))
