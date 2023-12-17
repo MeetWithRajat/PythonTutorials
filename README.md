@@ -18,7 +18,7 @@ Python Tutorials for Ankita
     Python Escape Sequence
     Python Booleans
     Python Operators ----------------------------> 29-11-2023
-    Python User Input
+    Python User Input ---------------------------> 17-12-2023
 
 **Control Statement**
 
