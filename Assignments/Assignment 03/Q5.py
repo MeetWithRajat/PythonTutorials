@@ -17,7 +17,7 @@ S2="I love Rabindra-sanget \nand\n Bankim Chandra Chattopadhyay."
 print(S2.splitlines())
 print(S2.startswith("I"))
 
-S3=" and "
+S3="    and     "
 print("Rabindra",S3.strip(),"Najrul")
 
 S4="RABINDRA and najrul."

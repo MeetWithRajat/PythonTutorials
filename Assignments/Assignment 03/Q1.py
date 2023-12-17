@@ -10,16 +10,16 @@
 # format()	Formats specified values in a string
 
 S = input("Sentence : ")
-print("Use the capitalize : ", S.capitalize())
-print("Use the casefold : ", S.casefold())
-print("Use the center : ", S.center(100))
-print("Use the encode : ", S.encode())
+# print("Use the capitalize : ", S.capitalize())
+# print("Use the casefold : ", S.casefold())
+# print("Use the center : ", S.center(100))
+# print("Use the encode : ", S.encode())
 
-print("Use the endswith : ", S.endswith("!"))
-print("Use the expandtabs : ", S.expandtabs(2))
-print("Use the find : ", S.find("ANKITA"))
-
-S1 = "I have {price: .2f} rupee !!"
+# print("Use the endswith : ", S.endswith("!"))
+# print("Use the expandtabs: ", S.expandtabs(10))
+# print("Use the find : ", S.find("ANKITA"))
+#
+S1 = "I have {price:.2f} rupee !!"
 print("Use the format : ", S1.format(price=100))
 
 

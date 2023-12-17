@@ -8,7 +8,7 @@ ljust()	Returns a left justified version of the string
 lower()	Converts a string into lower case
 lstrip()	Returns a left trim version of the string"""
 
-S7="Ankita Das "
+S7="Ankita Das"
 S8="  "
 print(S7.isprintable())
 print(S8.isspace())
@@ -31,3 +31,16 @@ print("***")
 
 S11=['Ankita', 'Rai', 'Mili']
 print("**".join(S11))
+
+
+print("\n\nCompare")
+str1 = "Straße"  # German sharp "ß"
+str2 = "strasse"  # English equivalent
+
+# Using casefold()
+result_casefold = str1.casefold() == str2.casefold()
+print(result_casefold)  # True
+
+# Using lower()
+result_lower = str1.lower() == str2.lower()
+print(result_lower)  # False

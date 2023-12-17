@@ -12,16 +12,18 @@ rstrip()	Returns a right trim version of the string
 S1="Ankita Das"
 print(S1.translate(S1.maketrans("D","S")))
 
-S2="My name is ANKITA DAS .I study in 3rd year"
+S2 = "My name is ANKITA DAS DAS DAS.I study in 3rd year"
 print(S2.partition("DAS"))
-print(S2.replace("DAS","SASMAL"))
+print(S2.replace("DAS","Roy"))
 
-S3= "I am a girl. I am a student ."
+S3 = "I am a girl. I am a student ."
 print(S3.rfind("I"))
 print(S3.rindex("I"))
-print(S3.rjust(20))
+print(S3.rjust(100))
 print(S3.rpartition("I"))
-print(S3.rsplit("I"))
+print(S3.rsplit("I", 1))
+print(S3.split("I",1))
 
-S10="ANKITA DAS"
-print("My name is", S10.rstrip() ,". I study in 3rd year.")
+S10="ANKITA DAS    "
+print("My name is", S10.rstrip(),". I study in 3rd year.")
+print("Hello", 34)

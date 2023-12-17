@@ -9,7 +9,7 @@ isdigit()	Returns True if all characters in the string are digits
 isidentifier()	Returns True if the string is an identifier
 islower()	Returns True if all characters in the string are lower case"""
 
-S2= {'x':"Ankita" , 'y':"Rajat da"}
+S2 = {'x': "Ankita", 'y': "Rajat"}
 print("{x} : Hiii {y} !  " .format_map(S2))
 
 print("*****")
@@ -19,15 +19,15 @@ print(S3.index('watermalon'))
 
 print("*****")
 
-S4="meetwithankita2003"
-print(S4.isalnum())
-print(S4.isalpha())
-print(S4.isascii())
-print(S4.islower())
+S4 = "meetwithankita2003"
+print(S4.isalnum())     # True
+print(S4.isalpha())     # False
+print(S4.isascii())     # True
+print(S4.islower())     # True
 
 print("*****")
 
-S5="06052003"
+S5 = "06052003"
 print(S5.isdecimal())
 print(S5.isdigit())
 
